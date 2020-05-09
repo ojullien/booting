@@ -28,7 +28,7 @@ abstract class AbstractStage implements StageInterface
      * @param StageInterface $stage
      * @return StageInterface
      */
-    public function setNext(StageInterface $stage): StageInterface
+    final public function setNext(StageInterface $stage): StageInterface
     {
         $this->pNextStage = $stage;
         // Returning a stage from here will let us link stages in a
