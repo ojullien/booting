@@ -5,9 +5,19 @@
       <code>AbstractStage</code>
     </UnusedClass>
   </file>
+  <file src="src/Boot/StageInterface.php">
+    <PossiblyUnusedMethod occurrences="1">
+      <code>setNext</code>
+    </PossiblyUnusedMethod>
+  </file>
   <file src="src/Init/AbstractStage.php">
     <UnusedClass occurrences="1">
       <code>AbstractStage</code>
     </UnusedClass>
+  </file>
+  <file src="src/Init/StageInterface.php">
+    <PossiblyUnusedMethod occurrences="1">
+      <code>setNext</code>
+    </PossiblyUnusedMethod>
   </file>
 </files>

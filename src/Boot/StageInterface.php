@@ -19,7 +19,13 @@ use Psr\Container\ContainerInterface;
  */
 interface StageInterface
 {
-
+    /**
+     * Builds the chain.
+     *
+     * @param StageInterface $stage
+     * @return StageInterface
+     */
+    public function setNext(StageInterface $stage): StageInterface;
 
     /**
      * Loads, configures and then executes bootstrap stages.
